@@ -18,6 +18,11 @@ html{
 }
 .header{
     grid-area: header;
+    background-image: url("../media/headerEDG.png");
+    width: 65em;
+    height: 20em;
+    background-position: center center;
+    background-size: cover;
 }
 .corpus{
     grid-area: corpus;
@@ -53,7 +58,7 @@ html{
         "footer footer footer"
         ;
     }
-}
+} 
 #navbar {
     display: flex;
     flex-direction: row;

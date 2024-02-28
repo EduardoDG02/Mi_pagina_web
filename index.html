@@ -17,32 +17,27 @@
 </head>
 <body class="grid-container">
     <header class="header">
-        <nav id="navbar-example2" class="text-bg-dark p-3">
-            <a class="navbar-brand" href="#">Full Stack Java</a>
-            <ul class="nav nav-pills" id="navbar">
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading1">Sobre ni</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading2">Formación</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Proyectos</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#scrollspyHeading3">Jardin Reyes</a></li>
-                  <li><a class="dropdown-item" href="#scrollspyHeading4">Konect-e</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#scrollspyHeading5">Otras E-commerce</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active text-light bg-dark" aria-current="page" href="#">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light bg-dark" href="#">Formación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light bg-dark" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light bg-dark" aria-disabled="true">Contáctame</a>
+            </li>
+          </ul>
+        <!--Separador-->
+          <a class="navbar-brand" href="#">Full Stack Java</a>
     </header>
     <main class="corpus">
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="text-bg-dark p-3" tabindex="0" id="corp">
+       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="text-bg-dark p-3" tabindex="0" id="corp">
             <div id="information">
                 <h4 id="scrollspyHeading1">¿Quien es Eduardo Diaz?</h4>
-                <img src="media/eduardoDiaz.jpeg" width="50%" alt="Eduardo Diaz 2023">
                 <p class="d-inline-flex gap-1">
                 <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Conóceme</button>
                 </p>
@@ -54,28 +49,28 @@
 
                         En resumen, soy un entusiasta de la programación, un eterno aprendiz y una persona muy creativa.
                     </div>
-                </div>
+                </div> 
             </div> <!-- Cierra el quien es Eduardo Diaz-->
         
-            <h4 id="scrollspyHeading2">Educación y trayectoria</h4>
+           <h4 id="scrollspyHeading2">Educación y trayectoria</h4>
             <p>Empecé estudiando historia en la Facultad de filosofia y letras de la UNAM, Sin embargo, en el camino, descubrí que no era mi verdadera vocación. Fue un momento de introspección que me llevó a buscar mi verdadera profesión.
             Fue entonces cuando recordé un pequeño gusto por la programación que había adquirido durante mis días de preparatoria y decidí explorarlo. Tomé cursos en la Escuela de Código de los Pilares en la Ciudad de México, donde aprendí fundamentos de programación, despues tomé un paso decisivo al entrar al bootcamp de Generation México, donde desarrollé habilidades prácticas y profundice en el desarrollo web. Posteriormente obtuve una certificación como backend impartido por Alura de la mano con Oracle. Me dedico al aprendizaje autodidacta y estoy constantemente explorando nuevas tecnologías y desafíos en el campo de la programación.</p>
             <h4 id="scrollspyHeading3">Proyectos</h4>
             <p>
                 <ul class="pags">
-                    <li><a id="scrollspyHeading4" href="#">JardinReyes.mx</a></li>
+                    <li><a id="scrollspyHeading4" href="#" target_blank>JardinReyes.mx</a></li>
                     <li><a id="scrollspyHeading4" href="#">Konect-e.mx</a></li>
                     <li><a id="scrollspyHeading5" href="#">CinefiloSnob.mx</a></li>
                     <li><a href="#">DonaVidaMéxico.org</a></li>
                 </ul>
             </p>
-        </div>
+        </div> 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <footer class="footer">
         <p>Contáctame</p>
-        <img src="/media/linkedin_3536569.png" width="7%" alt="linkedin">
-        <img src="/media/github_3291695.png" width="7%" alt="github">
+        <img src="/media/linkedin_black_logo_icon_147114.png" width="7%" alt="linkedin">
+        <img src="media/github.png" width="7%" alt="github">
     </footer>
 </body>
 </html>
